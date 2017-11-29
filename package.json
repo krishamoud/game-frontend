@@ -1,0 +1,31 @@
+{
+  "name": "game-frontend",
+  "version": "1.0.0",
+  "description": "Static front-end for my game",
+  "main": "js/app.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.6.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "lerp": "^1.0.3",
+    "socket.io-client": "^2.0.3"
+  }
+}
